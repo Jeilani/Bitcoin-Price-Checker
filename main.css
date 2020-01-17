@@ -1,0 +1,90 @@
+*:focus{
+    outline: none;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(89, 165, 207);
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 1rem;
+}
+
+#currency{
+    background-color:rgb(89, 124, 25);
+}
+
+.bt{
+    margin: 0 10px;
+    border-radius: 50px;
+}
+
+#GBPbtn, #EURbtn{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: inline;
+}
+
+.center{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#price{
+    font-weight: 2rem;
+    font-size: 2rem;
+}
+#coindesk{
+    margin-top: 20px;
+    font-size: .5rem;
+}
+
+a{
+    color: inherit;
+}
+button{
+    font-family: 'Quicksand', sans-serif!important;
+    color: rgb(89, 165, 207);
+    margin-top: 1rem;
+    color: black;
+    outline: 0;
+}
+
+button:focus, button:active{
+    outline: 0;
+}
+
+.spin {
+    animation: spinaround 0.3s linear 1;
+}
+
+@keyframes spinaround {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+.btn:focus{
+    outline: none;
+}
